@@ -1,6 +1,6 @@
 setInterval(function () {
     const messages = document.getElementsByTagName('ed-vs-message');
-    const BlockedUsers = ['Mme CHANTAL BONNOT'];
+    const BlockedUsers = ['user1', 'user2'];
     for (const message of messages) {
         const author = message.getElementsByClassName('media')[0].getElementsByClassName('ng-star-inserted')[0].innerText.toLowerCase();
         for(let user of BlockedUsers) {
