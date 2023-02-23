@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #2c2f33;
+    --dark-primary-color: #0e3e85;
+    --dark-second-color: #c10fd1;
+
+    --sponsor-color: #bc1ad1;
+}
+
+body {
+    width: 300px;
+    padding: 10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    gap: 0.5rem;
+}
+
+.logo-img {
+    width: 44px;
+    height: auto;
+    border-radius: 55px;
+}
+
+img {
+    width: 20px;
+    height: auto;
+    border-radius: 55px;
+}
+
+h1 {
+    font-size: 22px;
+    background-image: linear-gradient(45deg, var(--dark-primary-color), var(--dark-second-color));
+    font-family: 'Oswald', sans-serif;
+
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    text-decoration: none;
+    color:#fff;
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    padding: 1px 2px;
+    background-image: linear-gradient(-45deg, var(--dark-primary-color), var(--dark-second-color), var(--dark-second-color), var(--dark-second-color));
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark-primary-color);
+}

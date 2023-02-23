@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Ecole Directe Blocker",
+    "description": "...",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "*://*.ecoledirecte.com/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "logo.png",
+        "default_popup": "index.html"
+    }
+}
